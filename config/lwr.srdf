@@ -10,7 +10,6 @@
     <!--CHAINS: When a chain is specified, all the links along the chain (including endpoints) are included in the group. Additionally, all the joints that are parents to included links are also included. This means that joints along the chain and the parent joint of the base link are included in the group-->
     <!--SUBGROUPS: Groups can also be formed by referencing to already defined group names-->
     <group name="world_arm_hand">
-        <joint name="world_frame_lwr_arm_base_joint" />
         <joint name="lwr_arm_0_joint" />
         <joint name="lwr_arm_1_joint" />
         <joint name="lwr_arm_2_joint" />
@@ -33,8 +32,6 @@
         <joint name="lwr_arm_5_joint" value="-0.7853" />
         <joint name="lwr_arm_6_joint" value="0" />
     </group_state>
-    <!--END EFFECTOR: Purpose: Represent information about an end effector.-->
-    <end_effector name="robotiq" parent_link="world_frame" group="world_arm_hand" />
     <!--DISABLE COLLISIONS: By default it is assumed that any link of the robot could potentially come into collision with any other link in the robot. This tag disables collision checking between a specified pair of links. -->
     <disable_collisions link1="base" link2="lwr_arm_1_link" reason="Adjacent" />
     <disable_collisions link1="base" link2="lwr_arm_2_link" reason="Never" />
@@ -49,7 +46,6 @@
     <disable_collisions link1="base" link2="robotiq_finger_1_link_0" reason="Never" />
     <disable_collisions link1="base" link2="robotiq_finger_2_link_0" reason="Never" />
     <disable_collisions link1="base" link2="robotiq_finger_middle_link_0" reason="Never" />
-    <disable_collisions link1="base" link2="world_frame" reason="Adjacent" />
     <disable_collisions link1="lwr_arm_1_link" link2="lwr_arm_2_link" reason="Adjacent" />
     <disable_collisions link1="lwr_arm_1_link" link2="lwr_arm_3_link" reason="Never" />
     <disable_collisions link1="lwr_arm_1_link" link2="lwr_arm_4_link" reason="Never" />
@@ -67,7 +63,6 @@
     <disable_collisions link1="lwr_arm_1_link" link2="robotiq_finger_middle_link_0" reason="Never" />
     <disable_collisions link1="lwr_arm_1_link" link2="robotiq_finger_middle_link_1" reason="Never" />
     <disable_collisions link1="lwr_arm_1_link" link2="robotiq_palm" reason="Never" />
-    <disable_collisions link1="lwr_arm_1_link" link2="world_frame" reason="Never" />
     <disable_collisions link1="lwr_arm_2_link" link2="lwr_arm_3_link" reason="Adjacent" />
     <disable_collisions link1="lwr_arm_2_link" link2="lwr_arm_4_link" reason="Never" />
     <disable_collisions link1="lwr_arm_2_link" link2="lwr_arm_5_link" reason="Never" />
@@ -87,7 +82,6 @@
     <disable_collisions link1="lwr_arm_2_link" link2="robotiq_finger_middle_link_1" reason="Never" />
     <disable_collisions link1="lwr_arm_2_link" link2="robotiq_finger_middle_link_2" reason="Never" />
     <disable_collisions link1="lwr_arm_2_link" link2="robotiq_palm" reason="Never" />
-    <disable_collisions link1="lwr_arm_2_link" link2="world_frame" reason="Never" />
     <disable_collisions link1="lwr_arm_3_link" link2="lwr_arm_4_link" reason="Adjacent" />
     <disable_collisions link1="lwr_arm_3_link" link2="lwr_arm_5_link" reason="Never" />
     <disable_collisions link1="lwr_arm_3_link" link2="lwr_arm_6_link" reason="Never" />
