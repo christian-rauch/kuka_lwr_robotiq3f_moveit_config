@@ -8,4 +8,4 @@ moveit_setup_assistant_config:
   CONFIG:
     author_name: Christian Rauch
     author_email: Christian.Rauch@ed.ac.uk
-    generated_timestamp: 1542900154
+    generated_timestamp: 1542900389
