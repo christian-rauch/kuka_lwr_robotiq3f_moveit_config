@@ -20,7 +20,7 @@ controller_list:
       - robotiq_finger_middle_joint_1
       - robotiq_finger_middle_joint_2
       - robotiq_finger_middle_joint_3
-  - name: fake_arm_controller
+  - name: fake_a_arm_controller
     joints:
       - lwr_arm_0_joint
       - lwr_arm_1_joint

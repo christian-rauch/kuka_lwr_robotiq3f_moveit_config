@@ -146,7 +146,7 @@ all:
     - LazyPRMstar
     - SPARS
     - SPARStwo
-arm:
+a_arm:
   default_planner_config: LBKPIECE
   planner_configs:
     - SBL

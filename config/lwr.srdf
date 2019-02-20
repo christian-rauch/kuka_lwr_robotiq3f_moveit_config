@@ -37,7 +37,7 @@
         <joint name="robotiq_finger_middle_joint_3" />
         <joint name="robotiq_palm_tool0" />
     </group>
-    <group name="arm">
+    <group name="a_arm">
         <joint name="lwr_arm_0_joint" />
         <joint name="lwr_arm_1_joint" />
         <joint name="lwr_arm_2_joint" />
@@ -45,6 +45,11 @@
         <joint name="lwr_arm_4_joint" />
         <joint name="lwr_arm_5_joint" />
         <joint name="lwr_arm_6_joint" />
+        <joint name="lwr_connector_joint" />
+        <joint name="robotiq_connector_joint" />
+        <joint name="robotiq_coupling_joint" />
+        <joint name="robotiq_palm_joint" />
+        <joint name="robotiq_palm_tool0" />
     </group>
     <group name="manipulator">
         <joint name="robotiq_palm_joint" />
