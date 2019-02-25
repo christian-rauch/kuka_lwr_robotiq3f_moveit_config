@@ -1,7 +1,7 @@
 controller_list:
   - name: fake_all_controller
     joints:
-      - world_frame
+      - table_lwr_arm_base_joint
       - lwr_arm_0_joint
       - lwr_arm_1_joint
       - lwr_arm_2_joint

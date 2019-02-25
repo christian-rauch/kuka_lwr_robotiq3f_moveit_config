@@ -9,7 +9,7 @@ generic_hw_control_loop:
 # Settings for ros_control hardware interface
 hardware_interface:
   joints:
-    - world_frame
+    - table_lwr_arm_base_joint
     - lwr_arm_0_joint
     - lwr_arm_1_joint
     - lwr_arm_2_joint
